@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: Hind;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #C9D6FF;
+    background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);
+    background: linear-gradient(to right, #E2E2E2, #C9D6FF);
+    color: black;
+}
+
+.topdiv {
+    background: #2c3e50;
+    background: -webkit-linear-gradient(to right, #3498db, #2c3e50);
+    background: linear-gradient(to right, #3498db, #2c3e50);
+    height: 80px;
+    width: 100%;
+}
+
+.DevasyaBhashaTitle {
+    color: white;
+    font-size: 35px;
+    padding: 10px 20px;
+    font-weight: 700;
+}
+
+.deities {
+    width: 70%;
+    margin: auto;
+    display: block;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.deities img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    margin: 5px;
+    pointer-events: none;
+}
+
+.DeitiesHeading {
+    margin: 10px;
+    color: #2c3e50;
+    text-align: center;
+}
+
+a {
+    -webkit-tap-highlight-color: transparent;
+    /* Disable blue overlay */
+
+}
+
+@media screen and (max-width:770px) {
+    .deities {
+        width: 100%;
+    }
+
+    .DevasyaBhashaTitle {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .deities img {
+        width: 150px;
+        height: 150px;
+    }
+}
